@@ -1,0 +1,64 @@
+#header {
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+#todoList {
+    width: 40vw;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+#todoList:focus {
+    animation: round 1s forwards;
+}
+
+@keyframes round {
+    from {
+        border-radius: 0;
+        color: #ccc;
+    }
+    to {
+        border-radius: 30px;
+        color: #333;
+    }
+}
+
+.add {
+    background-color: white;
+    border-color: #ccc;
+    border-radius: 20px;
+    width: 70px;
+    height: 50px;
+}
+
+.checklist {
+    border: 3px solid red;
+    min-height: 500px;
+}
+
+#section {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#section #todoList_result {
+    font-size: 24px;
+    min-width: 500px;
+    min-height: 500px;
+    border: 1px solid black;
+}
+
+#section #checkbox-layout {
+    margin: 10px 30px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}
