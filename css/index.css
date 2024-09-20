@@ -52,7 +52,7 @@ h1 {
 
 #section #todoList_result {
     font-size: 24px;
-    min-width: 500px;
+    min-width: 400px;
     min-height: 500px;
     border: 1px solid black;
 }
@@ -62,4 +62,9 @@ h1 {
     line-height: 40px;
     min-height: 40px;
     border-bottom: 1px solid #ccc;
+}
+
+.todo_value {
+    display: inline-flex;
+    width: 90%;
 }

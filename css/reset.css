@@ -10,7 +10,7 @@ menu,nav,section,summary,time,mark,audio,video, input{margin:0; padding:0;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {  display: block; }
 /*html5 새로 추가된 요소들은 블록요소로 인식되지 않음. 이 요소들은 대부분 블록요소일 경우가 대부분이기때문에 한꺼번에 선언함. 기본값이 원래 인라인요소로 되어있음*/
 
-
+a { text-decoration: none; color: inherit; }
 li { list-style:none; }
 img,fieldset,iframe{border:0;}
 /*IE에서 이미지에 링크가 걸릴 때 자동으로 테두리가 생성되므로 테두리제거*/
