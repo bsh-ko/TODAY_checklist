@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>메모</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/memo.css">
 </head>
 <body>
-    <div contenteditable="true">적어놓은 할 일 표시할 곳</div>
-    <div onclick="deleteList()" contenteditable="true">부가적인 메모 작성칸</div>
-    <button >수정</button>
-    <button >삭제</button>
+    <div id="wrap">
+        <h4 contenteditable="true" class="title">적어놓은 할 일 표시할 곳</h4>
+        <div contenteditable="true" class="description">부가적인 메모 작성칸</div>
+        <button class="ok_btn">확인</button>
+        <button class="cancel_btn">취소</button>
+    </div>
 </body>
 </html>
