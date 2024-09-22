@@ -62,9 +62,22 @@ h1 {
     line-height: 40px;
     min-height: 40px;
     border-bottom: 1px solid #ccc;
+    display: flex;
 }
 
-.todo_value {
-    display: inline-flex;
-    width: 90%;
+#btn_layout {
+    margin-left: auto;
+    display: none;
+}
+
+#checkbox-layout:hover #btn_layout {
+    display: flex;
+}
+
+.modify_btn, .delete_btn {
+    width: 40px;
+    margin: 5px;
+    font-size: 11px;
+    border-radius: 10px;
+    border: 1px;
 }
