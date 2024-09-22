@@ -83,8 +83,9 @@ h1 {
 
 .modify_btn, .delete_btn {
     width: 40px;
-    margin: 5px;
-    font-size: 11px;
+    height: 30px;
+    margin: 0 5px;
+    font-size: 20px;
     border-radius: 10px;
     border: 1px;
 }
