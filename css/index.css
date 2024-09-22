@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Gaegu:wght@300;400;700&family=Sunflower:wght@300;500;700&display=swap');
+
+body, input, button {
+    font-family: 'Dongle';
+    font-size: 25px;
+}
+
 #header {
     text-align: center;
     margin: 50px;
@@ -5,6 +12,7 @@
 
 h1 {
     margin: 50px 0;
+    font-size: 50px;
 }
 
 #todoList {
@@ -51,7 +59,6 @@ h1 {
 }
 
 #section #todoList_result {
-    font-size: 24px;
     min-width: 400px;
     min-height: 500px;
     border: 1px solid black;
