@@ -30,7 +30,7 @@ function goMemo(index) {
     childWindow = window.open('memo.html', '_blank', 'left=100, top=100, width=500, height=500');
     childWindow.onload = function() {
         const titleElement = childWindow.document.getElementById('title'); // memo.html에서 타이틀을 입력할 요소
-        titleElement.innerText = todoArray[index]; // 수정할 항목의 텍스트
+        titleElement.innerText = todoArray[currentIndex]; // 수정할 항목의 텍스트
     };
 }
 
@@ -51,5 +51,5 @@ function deleteList(index) {
 // memo.html에서 호출될 함수
 function updateTodo(newTodo) {
     todoArray[currentIndex] = newTodo; // 수정한 항목으로 업데이트
-    printResult(); // 수정 후 리스트를 다시 출력
+    printResult(todoArray); // 수정 후 리스트를 다시 출력
 }
